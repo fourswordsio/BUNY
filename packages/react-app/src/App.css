@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,500;1,400&display=swap');
+.alchemy {
+    background: linear-gradient(267.45deg, #05d5ff -34.23%, #53f 99.39%)
+}
+
+.App {
+    text-align: center;
+}
+
+.p-3 {
+    width: 400px;
+    margin-top: -10px;
+}
+
+.p-4 {
+    width: 200px;
+}
+
+.left-col {
+    background-color: blue;
+}
+
+.nft-img {
+    max-width: 150px;
+    max-height: 150px;
+    min-height: 150px;
+    min-width: 150px;
+}
